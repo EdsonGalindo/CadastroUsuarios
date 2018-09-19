@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180919043822_CreateUsuarioDB.cs" />
+    <Compile Remove="Migrations\20180919043822_CreateUsuarioDB.Designer.cs" />
+    <Compile Remove="Migrations\20180919045309_CriarBase.cs" />
+    <Compile Remove="Migrations\20180919045309_CriarBase.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
